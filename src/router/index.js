@@ -135,6 +135,14 @@ const routes = [
       import(
         /* webpackChunkName: "event", webpackPrefetch:true */ '../views/2_event/EventKeyView.vue'
       )
+  },
+  {
+    path: '/vuex/intro',
+    name: 'VuexIntroView',
+    component: () =>
+      import(
+        /* webpackChunkName: "vuex", webpackPrefetch:true */ '../views/3_vuex/VuexIntroView.vue'
+      )
   }
 ]
 
