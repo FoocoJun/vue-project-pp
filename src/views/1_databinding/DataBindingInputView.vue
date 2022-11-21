@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- v-model을 이용한 양방향 데이터 바인딩 -->
+    <!-- v-model.number를 이용한 text값 숫자로 받기 -->
     <input type="text" v-model="userId" />
     <p>{{ userId }}</p>
     <input type="text" v-model="num1" /> +
